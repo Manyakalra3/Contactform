@@ -12,6 +12,8 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}...`);
 });
+app.use(cors({ origin: "*" }));
+
 const transporter = nodemailer.createTransport({
     // host: "smtp.gmail.com", 
     // port: 587,
