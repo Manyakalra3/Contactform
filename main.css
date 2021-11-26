@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+#sec-6{
+    
+    width: 100%;
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/contact.jpg");
+    background-size: 100% 100%;
+    padding: 60px 0px 70px 0px;
+    margin: auto;
+}
+
+#sec-6 input[type="text"],#sec-6 textarea{
+    
+    background:none;
+    width:100%;
+    border:#727373 2px solid;
+    margin-bottom: 18px;
+    padding:21px 12px;
+}
+#sec-6 button{
+  /* margin: 30px auto 0px auto; */
+
+    margin-top: 298px;
+    border: none;
+
+}

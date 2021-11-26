@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>CONTACT ME</title>
+  
+  </head>
+  <body style="background-color: #F7DED2;">
+    <div class="container " style="background-color:#B5E7E7;box-shadow:10px 10px 10px 10px cadetblue ;" >
+      <h1  style="margin-top: 2em;">HI!I AM MANYA KALRA</h1>
+     
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <h2 class="title">Contact Me</h2>
+            <p>
+              Any comments or feedback? Let ME know! Thank you.
+            </p>
+            <hr />
+            <form
+              id="contact-form"
+              method="POST"
+              action="send"
+              enctype="multipart/form-data"
+            >
+              
+               
+                  <div class="form-group col-md-12">
+                    <input
+                    
+                      placeholder ="Name"
+                      id="name"
+                      name="name"
+                      type="text"
+                      class="form-control bg-light text-dark"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-12 form-group">
+                    <input
+                      placeholder="Email"
+                      id="email"
+                      type="email"
+                      name="email"
+                      class="form-control bg-light"
+                      aria-describedby="emailHelp"
+                      required
+                    />
+                  
+               
+              </div>
+              <div class="form-group col-md-12">
+                <input
+                  placeholder="Subject"
+                  id="subject"
+                  name="subject"
+                  type="text"
+                  class="form-control bg-light"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-12">
+                <textarea
+                  placeholder="Message"
+                  id="message"
+                  name="message"
+                  class="form-control bg-light"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" value="submit" class="btn btn-primary ml-1">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <footer
+      style="position: fixed; left: 2em; bottom: 0;"
+      class="page-footer font-small blue"
+    >
+     
+      <div class="footer-copyright text-center py-3">
+        Made with ❤️ By
+        Manya Kalra
+      </div>
+    
+    </footer>
+ 
+    <script src="./index.js"></script>
+  </body>
+</html>
