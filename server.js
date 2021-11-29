@@ -24,7 +24,7 @@ const transporter = nodemailer.createTransport({
     },
   });
   console.log(process.env.EMAIL);
-  console.log(process.env.PASS);
+  //console.log(process.env.PASS);
   transporter.verify(function (error, success) {
     if (error) {
       console.log(error);
@@ -37,7 +37,7 @@ const transporter = nodemailer.createTransport({
     let form = new multiparty.Form();
     let data = {};
     form.parse(req, function (err, fields) {
-      console.log(fields);
+    //  console.log(fields);
       Object.keys(fields).forEach(function (property) {
         data[property] = fields[property].toString();
       });
