@@ -5,7 +5,7 @@ const formEvent = form.addEventListener("submit", (event) => {
     sendMail(mail);
 })
 const sendMail = (mail) => {
-    fetch('https://contact2manya.netlify.app/send', {
+    fetch('env.backend_url/send', {
       method: "post", //2.
       body: mail, //3.
   
